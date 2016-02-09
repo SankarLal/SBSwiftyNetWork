@@ -1,0 +1,10 @@
+framework module SBSwiftyNetWorking {
+  umbrella header "SBSwiftyNetWorking.h"
+
+  export *
+  module * { export * }
+}
+
+module SBSwiftyNetWorking.Swift {
+    header "SBSwiftyNetWorking-Swift.h"
+}

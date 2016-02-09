@@ -1,0 +1,621 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D6BA3BA1C69036900966910 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D6BA3B91C69036900966910 /* Assets.xcassets */; };
+		2D6BA3BD1C69036900966910 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D6BA3BB1C69036900966910 /* LaunchScreen.storyboard */; };
+		2D6BA3C81C69036900966910 /* SBSwiftyNetWorkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D6BA3C71C69036900966910 /* SBSwiftyNetWorkTests.swift */; };
+		2D6BA3D31C69036900966910 /* SBSwiftyNetWorkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D6BA3D21C69036900966910 /* SBSwiftyNetWorkUITests.swift */; };
+		2D6BA3E11C6903C700966910 /* SBAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D6BA3E01C6903C700966910 /* SBAppDelegate.swift */; };
+		2D6BA3E81C6905C100966910 /* SBHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D6BA3E71C6905C100966910 /* SBHomeViewController.swift */; };
+		2D6BA3EB1C6905CA00966910 /* SBJsonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D6BA3E91C6905CA00966910 /* SBJsonViewController.swift */; };
+		2D6BA3EC1C6905CA00966910 /* SBImageDownloadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D6BA3EA1C6905CA00966910 /* SBImageDownloadViewController.swift */; };
+		2D6BA3F31C6905D500966910 /* SBFileDownloadTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D6BA3ED1C6905D500966910 /* SBFileDownloadTaskViewController.swift */; };
+		2D6BA3F41C6905D500966910 /* SBImageDownloadTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D6BA3EE1C6905D500966910 /* SBImageDownloadTaskViewController.swift */; };
+		2D6BA3F51C6905D500966910 /* SBVideoDownloadTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D6BA3EF1C6905D500966910 /* SBVideoDownloadTaskViewController.swift */; };
+		2D6BA3F61C6905D500966910 /* SBAudioDownloadTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D6BA3F01C6905D500966910 /* SBAudioDownloadTaskViewController.swift */; };
+		2D6BA3F71C6905D500966910 /* SBPDFDownloadTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D6BA3F11C6905D500966910 /* SBPDFDownloadTaskViewController.swift */; };
+		2D6BA3F81C6905D500966910 /* SBDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D6BA3F21C6905D500966910 /* SBDetailsViewController.swift */; };
+		2D6BA3FB1C6905F400966910 /* SBTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D6BA3FA1C6905F400966910 /* SBTableView.swift */; };
+		2DE6A4D41C6A041600249135 /* SBSwiftyNetWorking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DE6A4D31C6A041600249135 /* SBSwiftyNetWorking.framework */; };
+		2DE6A4DA1C6A05F400249135 /* SBSwiftyNetWorking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DE6A4D31C6A041600249135 /* SBSwiftyNetWorking.framework */; };
+		2DE6A4DB1C6A05F400249135 /* SBSwiftyNetWorking.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2DE6A4D31C6A041600249135 /* SBSwiftyNetWorking.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2D6BA3C41C69036900966910 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D6BA3A71C69036900966910 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D6BA3AE1C69036900966910;
+			remoteInfo = SBSwiftyNetWork;
+		};
+		2D6BA3CF1C69036900966910 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D6BA3A71C69036900966910 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D6BA3AE1C69036900966910;
+			remoteInfo = SBSwiftyNetWork;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2DE6A4DC1C6A05F400249135 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				2DE6A4DB1C6A05F400249135 /* SBSwiftyNetWorking.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2D6BA3AF1C69036900966910 /* SBSwiftyNetWork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SBSwiftyNetWork.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D6BA3B91C69036900966910 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2D6BA3BC1C69036900966910 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2D6BA3BE1C69036900966910 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D6BA3C31C69036900966910 /* SBSwiftyNetWorkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SBSwiftyNetWorkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D6BA3C71C69036900966910 /* SBSwiftyNetWorkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SBSwiftyNetWorkTests.swift; sourceTree = "<group>"; };
+		2D6BA3C91C69036900966910 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D6BA3CE1C69036900966910 /* SBSwiftyNetWorkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SBSwiftyNetWorkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D6BA3D21C69036900966910 /* SBSwiftyNetWorkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SBSwiftyNetWorkUITests.swift; sourceTree = "<group>"; };
+		2D6BA3D41C69036900966910 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D6BA3E01C6903C700966910 /* SBAppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SBAppDelegate.swift; sourceTree = "<group>"; };
+		2D6BA3E71C6905C100966910 /* SBHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SBHomeViewController.swift; sourceTree = "<group>"; };
+		2D6BA3E91C6905CA00966910 /* SBJsonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SBJsonViewController.swift; sourceTree = "<group>"; };
+		2D6BA3EA1C6905CA00966910 /* SBImageDownloadViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SBImageDownloadViewController.swift; sourceTree = "<group>"; };
+		2D6BA3ED1C6905D500966910 /* SBFileDownloadTaskViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SBFileDownloadTaskViewController.swift; sourceTree = "<group>"; };
+		2D6BA3EE1C6905D500966910 /* SBImageDownloadTaskViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SBImageDownloadTaskViewController.swift; sourceTree = "<group>"; };
+		2D6BA3EF1C6905D500966910 /* SBVideoDownloadTaskViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SBVideoDownloadTaskViewController.swift; sourceTree = "<group>"; };
+		2D6BA3F01C6905D500966910 /* SBAudioDownloadTaskViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SBAudioDownloadTaskViewController.swift; sourceTree = "<group>"; };
+		2D6BA3F11C6905D500966910 /* SBPDFDownloadTaskViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SBPDFDownloadTaskViewController.swift; sourceTree = "<group>"; };
+		2D6BA3F21C6905D500966910 /* SBDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SBDetailsViewController.swift; sourceTree = "<group>"; };
+		2D6BA3FA1C6905F400966910 /* SBTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SBTableView.swift; sourceTree = "<group>"; };
+		2DE6A4D31C6A041600249135 /* SBSwiftyNetWorking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SBSwiftyNetWorking.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2D6BA3AC1C69036900966910 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DE6A4D41C6A041600249135 /* SBSwiftyNetWorking.framework in Frameworks */,
+				2DE6A4DA1C6A05F400249135 /* SBSwiftyNetWorking.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D6BA3C01C69036900966910 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D6BA3CB1C69036900966910 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D6BA3A61C69036900966910 = {
+			isa = PBXGroup;
+			children = (
+				2DE6A4D31C6A041600249135 /* SBSwiftyNetWorking.framework */,
+				2D6BA3B11C69036900966910 /* SBSwiftyNetWork */,
+				2D6BA3C61C69036900966910 /* SBSwiftyNetWorkTests */,
+				2D6BA3D11C69036900966910 /* SBSwiftyNetWorkUITests */,
+				2D6BA3B01C69036900966910 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2D6BA3B01C69036900966910 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2D6BA3AF1C69036900966910 /* SBSwiftyNetWork.app */,
+				2D6BA3C31C69036900966910 /* SBSwiftyNetWorkTests.xctest */,
+				2D6BA3CE1C69036900966910 /* SBSwiftyNetWorkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2D6BA3B11C69036900966910 /* SBSwiftyNetWork */ = {
+			isa = PBXGroup;
+			children = (
+				2D6BA3E21C6904E800966910 /* App Delegate  */,
+				2D6BA3E31C69054000966910 /* View Controller */,
+				2D6BA3F91C6905DE00966910 /* Views */,
+				2D6BA3B91C69036900966910 /* Assets.xcassets */,
+				2D6BA3BB1C69036900966910 /* LaunchScreen.storyboard */,
+				2D6BA3BE1C69036900966910 /* Info.plist */,
+			);
+			path = SBSwiftyNetWork;
+			sourceTree = "<group>";
+		};
+		2D6BA3C61C69036900966910 /* SBSwiftyNetWorkTests */ = {
+			isa = PBXGroup;
+			children = (
+				2D6BA3C71C69036900966910 /* SBSwiftyNetWorkTests.swift */,
+				2D6BA3C91C69036900966910 /* Info.plist */,
+			);
+			path = SBSwiftyNetWorkTests;
+			sourceTree = "<group>";
+		};
+		2D6BA3D11C69036900966910 /* SBSwiftyNetWorkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2D6BA3D21C69036900966910 /* SBSwiftyNetWorkUITests.swift */,
+				2D6BA3D41C69036900966910 /* Info.plist */,
+			);
+			path = SBSwiftyNetWorkUITests;
+			sourceTree = "<group>";
+		};
+		2D6BA3E21C6904E800966910 /* App Delegate  */ = {
+			isa = PBXGroup;
+			children = (
+				2D6BA3E01C6903C700966910 /* SBAppDelegate.swift */,
+			);
+			name = "App Delegate ";
+			sourceTree = "<group>";
+		};
+		2D6BA3E31C69054000966910 /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2D6BA3E41C69055400966910 /* Home View Controller */,
+				2D6BA3E51C69056300966910 /* Data Task View Controller */,
+				2D6BA3E61C69059300966910 /* Download Task View Controller */,
+			);
+			name = "View Controller";
+			sourceTree = "<group>";
+		};
+		2D6BA3E41C69055400966910 /* Home View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2D6BA3E71C6905C100966910 /* SBHomeViewController.swift */,
+			);
+			name = "Home View Controller";
+			sourceTree = "<group>";
+		};
+		2D6BA3E51C69056300966910 /* Data Task View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2D6BA3E91C6905CA00966910 /* SBJsonViewController.swift */,
+				2D6BA3EA1C6905CA00966910 /* SBImageDownloadViewController.swift */,
+			);
+			name = "Data Task View Controller";
+			sourceTree = "<group>";
+		};
+		2D6BA3E61C69059300966910 /* Download Task View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2D6BA3ED1C6905D500966910 /* SBFileDownloadTaskViewController.swift */,
+				2D6BA3EE1C6905D500966910 /* SBImageDownloadTaskViewController.swift */,
+				2D6BA3EF1C6905D500966910 /* SBVideoDownloadTaskViewController.swift */,
+				2D6BA3F01C6905D500966910 /* SBAudioDownloadTaskViewController.swift */,
+				2D6BA3F11C6905D500966910 /* SBPDFDownloadTaskViewController.swift */,
+				2D6BA3F21C6905D500966910 /* SBDetailsViewController.swift */,
+			);
+			name = "Download Task View Controller";
+			sourceTree = "<group>";
+		};
+		2D6BA3F91C6905DE00966910 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2D6BA3FA1C6905F400966910 /* SBTableView.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2D6BA3AE1C69036900966910 /* SBSwiftyNetWork */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D6BA3D71C69036900966910 /* Build configuration list for PBXNativeTarget "SBSwiftyNetWork" */;
+			buildPhases = (
+				2D6BA3AB1C69036900966910 /* Sources */,
+				2D6BA3AC1C69036900966910 /* Frameworks */,
+				2D6BA3AD1C69036900966910 /* Resources */,
+				2DE6A4DC1C6A05F400249135 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SBSwiftyNetWork;
+			productName = SBSwiftyNetWork;
+			productReference = 2D6BA3AF1C69036900966910 /* SBSwiftyNetWork.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2D6BA3C21C69036900966910 /* SBSwiftyNetWorkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D6BA3DA1C69036900966910 /* Build configuration list for PBXNativeTarget "SBSwiftyNetWorkTests" */;
+			buildPhases = (
+				2D6BA3BF1C69036900966910 /* Sources */,
+				2D6BA3C01C69036900966910 /* Frameworks */,
+				2D6BA3C11C69036900966910 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D6BA3C51C69036900966910 /* PBXTargetDependency */,
+			);
+			name = SBSwiftyNetWorkTests;
+			productName = SBSwiftyNetWorkTests;
+			productReference = 2D6BA3C31C69036900966910 /* SBSwiftyNetWorkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2D6BA3CD1C69036900966910 /* SBSwiftyNetWorkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D6BA3DD1C69036900966910 /* Build configuration list for PBXNativeTarget "SBSwiftyNetWorkUITests" */;
+			buildPhases = (
+				2D6BA3CA1C69036900966910 /* Sources */,
+				2D6BA3CB1C69036900966910 /* Frameworks */,
+				2D6BA3CC1C69036900966910 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D6BA3D01C69036900966910 /* PBXTargetDependency */,
+			);
+			name = SBSwiftyNetWorkUITests;
+			productName = SBSwiftyNetWorkUITests;
+			productReference = 2D6BA3CE1C69036900966910 /* SBSwiftyNetWorkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2D6BA3A71C69036900966910 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = SANKARLAL;
+				TargetAttributes = {
+					2D6BA3AE1C69036900966910 = {
+						CreatedOnToolsVersion = 7.2.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					2D6BA3C21C69036900966910 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 2D6BA3AE1C69036900966910;
+					};
+					2D6BA3CD1C69036900966910 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 2D6BA3AE1C69036900966910;
+					};
+				};
+			};
+			buildConfigurationList = 2D6BA3AA1C69036900966910 /* Build configuration list for PBXProject "SBSwiftyNetWork" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2D6BA3A61C69036900966910;
+			productRefGroup = 2D6BA3B01C69036900966910 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2D6BA3AE1C69036900966910 /* SBSwiftyNetWork */,
+				2D6BA3C21C69036900966910 /* SBSwiftyNetWorkTests */,
+				2D6BA3CD1C69036900966910 /* SBSwiftyNetWorkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2D6BA3AD1C69036900966910 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D6BA3BD1C69036900966910 /* LaunchScreen.storyboard in Resources */,
+				2D6BA3BA1C69036900966910 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D6BA3C11C69036900966910 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D6BA3CC1C69036900966910 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2D6BA3AB1C69036900966910 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D6BA3F51C6905D500966910 /* SBVideoDownloadTaskViewController.swift in Sources */,
+				2D6BA3FB1C6905F400966910 /* SBTableView.swift in Sources */,
+				2D6BA3E81C6905C100966910 /* SBHomeViewController.swift in Sources */,
+				2D6BA3EC1C6905CA00966910 /* SBImageDownloadViewController.swift in Sources */,
+				2D6BA3F61C6905D500966910 /* SBAudioDownloadTaskViewController.swift in Sources */,
+				2D6BA3F81C6905D500966910 /* SBDetailsViewController.swift in Sources */,
+				2D6BA3F71C6905D500966910 /* SBPDFDownloadTaskViewController.swift in Sources */,
+				2D6BA3F41C6905D500966910 /* SBImageDownloadTaskViewController.swift in Sources */,
+				2D6BA3E11C6903C700966910 /* SBAppDelegate.swift in Sources */,
+				2D6BA3EB1C6905CA00966910 /* SBJsonViewController.swift in Sources */,
+				2D6BA3F31C6905D500966910 /* SBFileDownloadTaskViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D6BA3BF1C69036900966910 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D6BA3C81C69036900966910 /* SBSwiftyNetWorkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D6BA3CA1C69036900966910 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D6BA3D31C69036900966910 /* SBSwiftyNetWorkUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2D6BA3C51C69036900966910 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D6BA3AE1C69036900966910 /* SBSwiftyNetWork */;
+			targetProxy = 2D6BA3C41C69036900966910 /* PBXContainerItemProxy */;
+		};
+		2D6BA3D01C69036900966910 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D6BA3AE1C69036900966910 /* SBSwiftyNetWork */;
+			targetProxy = 2D6BA3CF1C69036900966910 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2D6BA3BB1C69036900966910 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D6BA3BC1C69036900966910 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2D6BA3D51C69036900966910 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2D6BA3D61C69036900966910 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2D6BA3D81C69036900966910 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Framework/Device",
+					"$(PROJECT_DIR)/Framework/Simulator",
+				);
+				INFOPLIST_FILE = SBSwiftyNetWork/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sankarlal.SBSwiftyNetWork;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2D6BA3D91C69036900966910 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Framework/Device",
+					"$(PROJECT_DIR)/Framework/Simulator",
+				);
+				INFOPLIST_FILE = SBSwiftyNetWork/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sankarlal.SBSwiftyNetWork;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2D6BA3DB1C69036900966910 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SBSwiftyNetWorkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sankarlal.SBSwiftyNetWorkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SBSwiftyNetWork.app/SBSwiftyNetWork";
+			};
+			name = Debug;
+		};
+		2D6BA3DC1C69036900966910 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SBSwiftyNetWorkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sankarlal.SBSwiftyNetWorkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SBSwiftyNetWork.app/SBSwiftyNetWork";
+			};
+			name = Release;
+		};
+		2D6BA3DE1C69036900966910 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SBSwiftyNetWorkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sankarlal.SBSwiftyNetWorkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SBSwiftyNetWork;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		2D6BA3DF1C69036900966910 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SBSwiftyNetWorkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sankarlal.SBSwiftyNetWorkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SBSwiftyNetWork;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D6BA3AA1C69036900966910 /* Build configuration list for PBXProject "SBSwiftyNetWork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D6BA3D51C69036900966910 /* Debug */,
+				2D6BA3D61C69036900966910 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D6BA3D71C69036900966910 /* Build configuration list for PBXNativeTarget "SBSwiftyNetWork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D6BA3D81C69036900966910 /* Debug */,
+				2D6BA3D91C69036900966910 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D6BA3DA1C69036900966910 /* Build configuration list for PBXNativeTarget "SBSwiftyNetWorkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D6BA3DB1C69036900966910 /* Debug */,
+				2D6BA3DC1C69036900966910 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D6BA3DD1C69036900966910 /* Build configuration list for PBXNativeTarget "SBSwiftyNetWorkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D6BA3DE1C69036900966910 /* Debug */,
+				2D6BA3DF1C69036900966910 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2D6BA3A71C69036900966910 /* Project object */;
+}
