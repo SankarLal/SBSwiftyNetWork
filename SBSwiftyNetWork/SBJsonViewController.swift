@@ -27,9 +27,9 @@ class SBJsonViewController: UIViewController, UITableViewDelegate, UITableViewDa
         super.viewDidAppear(animated)
         
         let urlString : NSString = "http://api.geonames.org/citiesJSON?north=44.1&south=-9.9&east=-22.4&west=55.2&lang=de&username=demo"
-        ////    NSString *urlString1 = [NSString stringWithFormat:@"http://ec2-54-69-71-147.us-west-2.compute.amazonaws.com:8181/m2mservices/v2/parkInfo?parkName=GRBA"];
         
-        
+//        SBManager.sharedInstance.setHeaders(["Key": "Value"])
+
         // ******** Each and every time, it will fetch to server ******** //
         
         //        SBManager.sharedInstance.performDataTaskWithExecuteGetURL(urlString,
