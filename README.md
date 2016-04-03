@@ -156,11 +156,25 @@ If you want to add headers, user below method before calling the services.
         SBManager.sharedInstance.performDataTaskWithExecuteGetURL(urlString,
             success: { (dictionary) -> Void in
                 
-                print(dictionary)
+                                                                            let httpResponse : NSHTTPURLResponse = dictionary?.valueForKey("headerResponse") as! NSHTTPURLResponse
+                                                                            
+                                                                            let statusCode : NSInteger = httpResponse.statusCode
+                                                                            
+                                                                            if statusCode == 200 {
+                                                                                
+                                                                                let response : NSDictionary = dictionary?.valueForKey("serverResponse") as! NSDictionary
+                                                                                print("RESPONSE \(response)")
+                                                                                
+                                                                                self.updateResponseData(response)
+                                                                                
+                                                                            } else {
+                                                                                
+                                                                                print("Error : Status Code \(statusCode)")
+                                                                            }
                 
             }) { (error) -> Void in
                 
-                print(error?.localizedDescription)
+            self.showErrorMessage((error?.localizedDescription)!)
                 
             }
             
@@ -169,11 +183,25 @@ If you want to add headers, user below method before calling the services.
                 SBManager.sharedInstance.performDataTaskWithCacheAndExecuteGetURL(urlString,
                     success: { (dictionary) -> Void in
                         
-                        print(dictionary)
+                                                                            let httpResponse : NSHTTPURLResponse = dictionary?.valueForKey("headerResponse") as! NSHTTPURLResponse
+                                                                            
+                                                                            let statusCode : NSInteger = httpResponse.statusCode
+                                                                            
+                                                                            if statusCode == 200 {
+                                                                                
+                                                                                let response : NSDictionary = dictionary?.valueForKey("serverResponse") as! NSDictionary
+                                                                                print("RESPONSE \(response)")
+                                                                                
+                                                                                self.updateResponseData(response)
+                                                                                
+                                                                            } else {
+                                                                                
+                                                                                print("Error : Status Code \(statusCode)")
+                                                                            }
                         
                     }) { (error) -> Void in
                         
-                        print(error?.localizedDescription)
+            self.showErrorMessage((error?.localizedDescription)!)
                         
         }
         
@@ -183,7 +211,21 @@ If you want to add headers, user below method before calling the services.
             cacheExpireTimeInMinutes: 10,
             success: { (dictionary) -> Void in
                 
-                self.updateResponseData(dictionary)
+                                                                            let httpResponse : NSHTTPURLResponse = dictionary?.valueForKey("headerResponse") as! NSHTTPURLResponse
+                                                                            
+                                                                            let statusCode : NSInteger = httpResponse.statusCode
+                                                                            
+                                                                            if statusCode == 200 {
+                                                                                
+                                                                                let response : NSDictionary = dictionary?.valueForKey("serverResponse") as! NSDictionary
+                                                                                print("RESPONSE \(response)")
+                                                                                
+                                                                                self.updateResponseData(response)
+                                                                                
+                                                                            } else {
+                                                                                
+                                                                                print("Error : Status Code \(statusCode)")
+                                                                            }
                 
             }) { (error) -> Void in
                 self.showErrorMessage((error?.localizedDescription)!)
