@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/SBSwiftyNetWorking-Swift.h</key>
 		<data>
-		RrcDRn/THwbBPNuOP2Rct2Fty3I=
+		5tZ9HIRIvgOepn1mX0aokOimEfQ=
 		</data>
 		<key>Headers/SBSwiftyNetWorking.h</key>
 		<data>
@@ -14,23 +14,23 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		QjxHvvn/HPxujbfz256LZ7Ir5O0=
+		CaKyGLrMrJniQZL0tsTPMursJmU=
 		</data>
 		<key>Modules/SBSwiftyNetWorking.swiftmodule/arm.swiftdoc</key>
 		<data>
-		z9gym0lF2avZftPcPwlmxaitbzc=
+		vX3li+0pmJfxIOleJRvM7XzulwQ=
 		</data>
 		<key>Modules/SBSwiftyNetWorking.swiftmodule/arm.swiftmodule</key>
 		<data>
-		xCUMP4iBL3a0xrp7t8NlcZJMxug=
+		iFQOhpA6TL5Pw8up8PhxAz58FLc=
 		</data>
 		<key>Modules/SBSwiftyNetWorking.swiftmodule/arm64.swiftdoc</key>
 		<data>
-		fIpxOKAjR9plS6cvnn3Uj8k/7Lc=
+		7BUlQBrhUQ77wbgVsUxliml4eHA=
 		</data>
 		<key>Modules/SBSwiftyNetWorking.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		Xroju4NSZidJBpZxgLCY9Dr+lAw=
+		f+Hazzxp9/jUwM020Ab/vvf1mnw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -40,33 +40,82 @@
 	<key>files2</key>
 	<dict>
 		<key>Headers/SBSwiftyNetWorking-Swift.h</key>
-		<data>
-		RrcDRn/THwbBPNuOP2Rct2Fty3I=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			5tZ9HIRIvgOepn1mX0aokOimEfQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			bcacAm3S1tkQpkbx43Cj7XBAvN2pBB6dPFKccoVfKz0=
+			</data>
+		</dict>
 		<key>Headers/SBSwiftyNetWorking.h</key>
-		<data>
-		UAU/Nu2nThSfP750DlqEkJ0fpek=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			UAU/Nu2nThSfP750DlqEkJ0fpek=
+			</data>
+			<key>hash2</key>
+			<data>
+			rPl8A7TKdeYhM8nZsjtr2mtc3+SE/iMryzEVj+gDNZU=
+			</data>
+		</dict>
 		<key>Modules/SBSwiftyNetWorking.swiftmodule/arm.swiftdoc</key>
-		<data>
-		z9gym0lF2avZftPcPwlmxaitbzc=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			vX3li+0pmJfxIOleJRvM7XzulwQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			4jL5SYsuUZwVrVKRBF0W93GFHjdKVzLWV5emq9vS8g4=
+			</data>
+		</dict>
 		<key>Modules/SBSwiftyNetWorking.swiftmodule/arm.swiftmodule</key>
-		<data>
-		xCUMP4iBL3a0xrp7t8NlcZJMxug=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			iFQOhpA6TL5Pw8up8PhxAz58FLc=
+			</data>
+			<key>hash2</key>
+			<data>
+			U9GCVN8gL8plNxPob7hzGvvsorltE0wwOf6JcuGeZwA=
+			</data>
+		</dict>
 		<key>Modules/SBSwiftyNetWorking.swiftmodule/arm64.swiftdoc</key>
-		<data>
-		fIpxOKAjR9plS6cvnn3Uj8k/7Lc=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			7BUlQBrhUQ77wbgVsUxliml4eHA=
+			</data>
+			<key>hash2</key>
+			<data>
+			HsTmECpPnCMRxnb73uLJ1+KT7c6FmxT04MLIAz3OSiA=
+			</data>
+		</dict>
 		<key>Modules/SBSwiftyNetWorking.swiftmodule/arm64.swiftmodule</key>
-		<data>
-		Xroju4NSZidJBpZxgLCY9Dr+lAw=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			f+Hazzxp9/jUwM020Ab/vvf1mnw=
+			</data>
+			<key>hash2</key>
+			<data>
+			PNJ3SVwfNVvuc9D619LDKNWT9TlF3Ctj40JZ7mDmFX0=
+			</data>
+		</dict>
 		<key>Modules/module.modulemap</key>
-		<data>
-		ATcbPUCZNJe4+Fv8Jk7ipNrtA2A=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			ATcbPUCZNJe4+Fv8Jk7ipNrtA2A=
+			</data>
+			<key>hash2</key>
+			<data>
+			g/sos0Ijyp6bRG2ume6iYsJq471l05EAA/o/u03JXYk=
+			</data>
+		</dict>
 	</dict>
 	<key>rules</key>
 	<dict>

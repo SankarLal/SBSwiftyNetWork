@@ -22,9 +22,9 @@
 		2D6BA3F71C6905D500966910 /* SBPDFDownloadTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D6BA3F11C6905D500966910 /* SBPDFDownloadTaskViewController.swift */; };
 		2D6BA3F81C6905D500966910 /* SBDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D6BA3F21C6905D500966910 /* SBDetailsViewController.swift */; };
 		2D6BA3FB1C6905F400966910 /* SBTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D6BA3FA1C6905F400966910 /* SBTableView.swift */; };
-		2DE6A4D41C6A041600249135 /* SBSwiftyNetWorking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DE6A4D31C6A041600249135 /* SBSwiftyNetWorking.framework */; };
-		2DE6A4DA1C6A05F400249135 /* SBSwiftyNetWorking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DE6A4D31C6A041600249135 /* SBSwiftyNetWorking.framework */; };
-		2DE6A4DB1C6A05F400249135 /* SBSwiftyNetWorking.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2DE6A4D31C6A041600249135 /* SBSwiftyNetWorking.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		2DDABEBA1CB1373D006DF534 /* SBSwiftyNetWorking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DDABEB91CB1373D006DF534 /* SBSwiftyNetWorking.framework */; };
+		2DDABEBB1CB13750006DF534 /* SBSwiftyNetWorking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DDABEB91CB1373D006DF534 /* SBSwiftyNetWorking.framework */; };
+		2DDABEBC1CB13750006DF534 /* SBSwiftyNetWorking.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2DDABEB91CB1373D006DF534 /* SBSwiftyNetWorking.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,7 +51,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				2DE6A4DB1C6A05F400249135 /* SBSwiftyNetWorking.framework in Embed Frameworks */,
+				2DDABEBC1CB13750006DF534 /* SBSwiftyNetWorking.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -80,7 +80,7 @@
 		2D6BA3F11C6905D500966910 /* SBPDFDownloadTaskViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SBPDFDownloadTaskViewController.swift; sourceTree = "<group>"; };
 		2D6BA3F21C6905D500966910 /* SBDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SBDetailsViewController.swift; sourceTree = "<group>"; };
 		2D6BA3FA1C6905F400966910 /* SBTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SBTableView.swift; sourceTree = "<group>"; };
-		2DE6A4D31C6A041600249135 /* SBSwiftyNetWorking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SBSwiftyNetWorking.framework; sourceTree = "<group>"; };
+		2DDABEB91CB1373D006DF534 /* SBSwiftyNetWorking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SBSwiftyNetWorking.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,8 +88,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DE6A4D41C6A041600249135 /* SBSwiftyNetWorking.framework in Frameworks */,
-				2DE6A4DA1C6A05F400249135 /* SBSwiftyNetWorking.framework in Frameworks */,
+				2DDABEBA1CB1373D006DF534 /* SBSwiftyNetWorking.framework in Frameworks */,
+				2DDABEBB1CB13750006DF534 /* SBSwiftyNetWorking.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -113,7 +113,7 @@
 		2D6BA3A61C69036900966910 = {
 			isa = PBXGroup;
 			children = (
-				2DE6A4D31C6A041600249135 /* SBSwiftyNetWorking.framework */,
+				2DDABEB91CB1373D006DF534 /* SBSwiftyNetWorking.framework */,
 				2D6BA3B11C69036900966910 /* SBSwiftyNetWork */,
 				2D6BA3C61C69036900966910 /* SBSwiftyNetWorkTests */,
 				2D6BA3D11C69036900966910 /* SBSwiftyNetWorkUITests */,
