@@ -28,45 +28,93 @@ class SBJsonViewController: UIViewController, UITableViewDelegate, UITableViewDa
         
         let urlString : NSString = "http://api.geonames.org/citiesJSON?north=44.1&south=-9.9&east=-22.4&west=55.2&lang=de&username=demo"
         
-//        SBManager.sharedInstance.setHeaders(["Key": "Value"])
-
-        // ******** Each and every time, it will fetch to server ******** //
+        //If you want to add headers, user below method before calling the services.
         
-        //        SBManager.sharedInstance.performDataTaskWithExecuteGetURL(urlString,
-        //            success: { (dictionary) -> Void in
-        //
-        //                print(dictionary)
-        //
-        //            }) { (error) -> Void in
-        //
-        //                print(error?.localizedDescription)
-        //
-        //        }
+//        SBManager.sharedInstance.setHeaders(["Key": "Value"])
+//        
+//        // ******** Each and every time, it will fetch to server ******** //
+//        
+//        SBManager.sharedInstance.performDataTaskWithExecuteGetURL(urlString,
+//                                                                  success: { (dictionary) -> Void in
+//                                                                    
+//                                                                    let httpResponse : NSHTTPURLResponse = dictionary?.valueForKey("headerResponse") as! NSHTTPURLResponse
+//                                                                    
+//                                                                    let statusCode : NSInteger = httpResponse.statusCode
+//                                                                    
+//                                                                    if statusCode == 200 {
+//                                                                        
+//                                                                        let response : NSDictionary = dictionary?.valueForKey("serverResponse") as! NSDictionary
+//                                                                        print("RESPONSE \(response)")
+//                                                                        
+//                                                                        self.updateResponseData(response)
+//                                                                        
+//                                                                    } else {
+//                                                                        
+//                                                                        print("Error : Status Code \(statusCode)")
+//                                                                    }
+//                                                                    
+//        }) { (error) -> Void in
+//            
+//            self.showErrorMessage((error?.localizedDescription)!)
+//            
+//        }
         
         // ******** After five minutes only (Based on "configCacheTimeInMinutes:5" Or "defaultCacheTimeConfig") next call will go to server. Eventhough Network available or Not available ******** //
         
-        //        SBManager.sharedInstance.performDataTaskWithCacheAndExecuteGetURL(urlString,
-        //            success: { (dictionary) -> Void in
-        //
-        //                print(dictionary)
-        //
-        //            }) { (error) -> Void in
-        //
-        //                print(error?.localizedDescription)
-        //
-        //        }
+//        SBManager.sharedInstance.setHeaders(["Key": "Value"])
+//        
+//        SBManager.sharedInstance.performDataTaskWithCacheAndExecuteGetURL(urlString,
+//                                                                          success: { (dictionary) -> Void in
+//                                                                            
+//                                                                            let httpResponse : NSHTTPURLResponse = dictionary?.valueForKey("headerResponse") as! NSHTTPURLResponse
+//                                                                            
+//                                                                            let statusCode : NSInteger = httpResponse.statusCode
+//                                                                            
+//                                                                            if statusCode == 200 {
+//                                                                                
+//                                                                                let response : NSDictionary = dictionary?.valueForKey("serverResponse") as! NSDictionary
+//                                                                                print("RESPONSE \(response)")
+//                                                                                
+//                                                                                self.updateResponseData(response)
+//                                                                                
+//                                                                            } else {
+//                                                                                
+//                                                                                print("Error : Status Code \(statusCode)")
+//                                                                            }
+//                                                                            
+//        }) { (error) -> Void in
+//            
+//            self.showErrorMessage((error?.localizedDescription)!)
+//            
+//        }
         
         // ******** After ten minutes (Based on "cacheExpireTimeInMinutes" value) only next call will go to server. Eventhough Network available or Not available ******** \\
         
+        //        SBManager.sharedInstance.setHeaders(["Key": "Value"])
+        
         SBManager.sharedInstance.performDataTaskWithCacheAndExecuteGetURL(urlString,
-            cacheExpireTimeInMinutes: 10,
-            success: { (dictionary) -> Void in
-                
-                self.updateResponseData(dictionary)
-                
-            }) { (error) -> Void in
-                self.showErrorMessage((error?.localizedDescription)!)
-                
+                                                                          cacheExpireTimeInMinutes: 10,
+                                                                          success: { (dictionary) -> Void in
+                                                                            
+                                                                            let httpResponse : NSHTTPURLResponse = dictionary?.valueForKey("headerResponse") as! NSHTTPURLResponse
+                                                                            
+                                                                            let statusCode : NSInteger = httpResponse.statusCode
+                                                                            
+                                                                            if statusCode == 200 {
+                                                                                
+                                                                                let response : NSDictionary = dictionary?.valueForKey("serverResponse") as! NSDictionary
+                                                                                print("RESPONSE \(response)")
+                                                                                
+                                                                                self.updateResponseData(response)
+                                                                                
+                                                                            } else {
+                                                                                
+                                                                                print("Error : Status Code \(statusCode)")
+                                                                            }
+                                                                            
+        }) { (error) -> Void in
+            self.showErrorMessage((error?.localizedDescription)!)
+            
         }
     }
     
@@ -122,19 +170,19 @@ class SBJsonViewController: UIViewController, UITableViewDelegate, UITableViewDa
     func showErrorMessage (errorMessage : NSString) {
         
         let alertViewController : UIAlertController = UIAlertController (title: "Error",
-            message: errorMessage as String,
-            preferredStyle: UIAlertControllerStyle.Alert)
+                                                                         message: errorMessage as String,
+                                                                         preferredStyle: UIAlertControllerStyle.Alert)
         
         let okButton : UIAlertAction = UIAlertAction (title: "Ok",
-            style: UIAlertActionStyle.Default) { (action) -> Void in
-                NSLog("Ok Button")
-                
+                                                      style: UIAlertActionStyle.Default) { (action) -> Void in
+                                                        NSLog("Ok Button")
+                                                        
         }
         
         alertViewController.addAction(okButton)
         self.presentViewController(alertViewController,
-            animated: true,
-            completion: nil)
+                                   animated: true,
+                                   completion: nil)
         
     }
     
